@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <style>
+        .container {
+            width: 100%;
+            background-color: lightgray;
+            padding: 20px;
+
+        }
+
+        .box {
+            width: calc(50%-20px);
+                /* half of the container width with minus 20px. */
+            height: 100px;
+            background-color: cornflowerblue;
+            flex: content;
+            margin-right: 20px;
+        }
+
+        .last-box {
+            margin-right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box last-box"></div>
+    </div>
+</body>
+
+</html>

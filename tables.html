@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+          }
+        table, th, td{
+            border: 1px solid color lightgrey;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table{
+            width:100%;
+        }
+        th, td{
+            height: 40px;
+        } 
+        th{
+            
+            background-color: lightgray;
+        }
+        .badge-green{
+            background-color: rgb(9, 155, 9);
+            padding: 1px 16px;
+            border-radius: 5px;
+            color:white; 
+        }
+        .badge-orange{
+            background-color: orange;
+            padding: 1px 16px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Employee Table</h2>
+    <table border >
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Type</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+        <tr>
+            <td>1</td>
+            <td>Rob</td>
+            <td>25</td>
+            <td>North</td>
+            <td>
+            <span class="badge-green">Permanent</span>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aegon</td>
+            <td>26</td>
+            <td>Night's Watch</td>
+            <td>
+                <span class="badge-orange">Contract</span>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Tyrion</td>
+            <td>28</td>
+            <td>Kings Landing</td>
+            <td>
+                <span class="badge-green">Permanent</span>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Ned</td>
+            <td>22</td>
+            <td>North</td>
+            <td>
+                <span class="badge-green">Permanent</span>
+        </tr>
+        <tr>
+        <td>5</td>
+            <td>Daenerys</td>
+            <td>28</td>
+            <td>Dragon Stone</td>
+            <td>
+                <span class="badge-orange">Contract</span>
+        </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontapp</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            padding: 0px;
+            margin: 0px;
+        }
+         /*h2{
+            text-align:center;
+            width:40%;
+         }*/
+         span{
+            color: lightslategray;
+            padding-right: 13px;
+            margin:10px;
+            line-height:40px;
+         }
+         #check{
+            color:blue;
+            margin-left:5px;
+         }
+         .cards{
+            margin-top: 50px;
+            display: flex;
+            border-radius: border-box;
+         }
+         .card-1{
+            color: red;
+            border: 1px solid whitesmoke;
+            width: 300px;
+            height: 500px;
+            display: inline-block;
+            margin: 0px 10px;
+            border-radius: 10px;
+            background-color: white;
+         }
+         .card-2{
+            color:green;
+            border: 1px solid whitesmoke;
+            width: 300px;
+            height: 500px;
+            display: inline-block;
+            margin: 0px 10px;
+            border-radius: 10px;
+            background-color: white;
+         }
+         .card-3{
+            color: blue;
+            border: 1px solid whitesmoke;
+            width: 300px;
+            height: 500px;
+            display: inline-block;
+            margin: 0px 10px;
+            border-radius: 10px;
+            background-color: white;
+         }
+         .image-1{
+            width: 290px;
+            border-radius: 10px;
+            margin-top: 5px;
+         }
+         h4{
+            text-align: left;
+            margin-left: 5px;
+            font-size: 20px;
+            color: black;
+         }
+         .paragraph{
+            color: lightslategray;
+            text-align: left;
+            margin: 0px 5px opx 5px;
+         }
+         .para2{
+            display: inline-block;
+            color:lightslategray;
+         }
+         .i1-p1{
+            text-align: left;
+            margin-left: 5px;
+            height: 50px;
+         }
+         .i2-p2{
+            text-align: left;
+            margin-left: 5px;
+            height: 50px;
+         }
+         .i3-p3{
+            text-align: left;
+            margin-left: 5px;
+            height: 50px;
+         }
+         #arrow{
+            color:lightslategray;
+         }
+         .hr{
+            background-color: lightgray;
+            height: 1px;
+            width: 300px;
+            margin-top: 30px;
+         }
+         .anchor{
+            text-align: left;
+            margin: 20px 0px 0px 5px;
+            cursor: pointer;
+         }
+         a{
+            text-decoration: none;
+            padding: 4px;
+            background-color: blue;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            color:white;
+         }
+         .h2-container{
+            font-size: 30px;
+            width: 100%;
+            word-spacing: 5px;
+            margin-top: 60px;
+            height:30px;
+         }
+         .p-container1{
+            color:lightslategray;
+         }
+         .div-1{
+            width:500px;
+            height: 500px;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            display: inline-block;
+            background-color: whitesmoke;
+         }
+         .div-2{
+            width:500px;
+            height: 500px;
+           /* border: 1px solid lightgray;*/
+            border-radius: 10px;
+            margin: 0px 10px;
+         }
+         .div2-h2{
+            margin: 10px 8px 0px 5px;
+            width: 500px;
+            text-align: left;
+         }
+         .div2-p2{
+            color: lightslategray;
+            text-align: left;
+            margin-left: 5px;
+         }
+         .office-img{
+            height:500px;
+            width:500px;
+            border-radius: 10px;
+         }
+
+        /*i {
+            margin-left: 35%;
+        }
+
+        .custom-button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 3px 20px;
+            font-size: 15px;
+            border-radius: 5px;
+            margin-left: ;
+            cursor: pointer;
+        }
+
+        .span {
+            text-align: center;
+
+            margin-right: %;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .box {
+            border: 1px solid black;
+            width: 32%;
+            height: 300px;
+            background-color: whitesmoke;
+            color: black;
+            display: inline-block;
+            margin-top: 2%;
+            margin-bottom: 5px;
+            box-sizing: border-box;
+        }
+
+        .additional-info {
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+            text-align: center;
+        }
+
+        h4 {
+            margin: 10px, 0;
+        }
+
+        .audience {
+            text-align: center;
+            margin-top: 10%;
+        }
+
+        .container1 {
+            display: flex;
+        }
+
+        .inner-box {
+            margin-top: 2%;
+            margin-bottom: 5px;
+            box-sizing: border-box;
+        }*/
+
+        .container2 {
+            background-color: lightcyan;
+            margin: 70px 150px;
+            width: 100%;
+            display: flex;
+        }
+
+        .div-check01 {
+            margin-left: 5px;
+            text-align: left;
+        }
+
+        .div-check02 {
+            margin-left: 5px;
+            text-align: left;
+        }
+
+        .div-check03 {
+            margin-left: 5px;
+            text-align: left;
+        }
+
+        .btn-span {
+            text-align: left;
+        }
+
+        .btn {
+            display: block;
+            margin: 30px 0px 0px 20px;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            color: white;
+            height: 50px;
+        }
+
+        .hr2 {
+            background-color: lightgray;
+            height: 1px;
+            width: 500px;
+            margin-left: 10px;
+
+        }
+
+        .trust-up {
+            text-align: left;
+            margin-left: 15px;
+            font-size: medium;
+            color: lightslategrey;
+        }
+
+        .img1 {
+            width: 70px;
+            height: 50px
+        }
+
+        .img2 {
+            width: 70px;
+            height: 50px
+        }
+
+        .img3 {
+            width: 70px;
+            height: 50px
+        }
+
+        .img4 {
+            width: 70px;
+            height: 50px
+        }
+
+        .bg-container {
+            background-color: lightcyan;
+            width: 93%;
+            height: 100%;
+            margin-left: 30px;
+
+        }
+
+        .container3 {
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding: 0px;
+            margin: 40px 10px 10px 10px;
+            display: flex;
+        }
+
+        .boy-image {
+            width: 400px;
+            height: 500px;
+        }
+
+        .boy-img {
+            border-radius: 10px;
+        }
+
+        .boy-text {
+            width: 650px;
+            height: 500px;
+            display: inline-block;
+            margin: 10px 0px;
+        }
+
+        .text-img {
+            height: 50px;
+            width: 120px;
+            margin-top: 50px;
+            padding-left: 15px;
+        }
+
+        .h2-lewis {
+            font-size: 25px;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+            margin-left: 10px;
+        }
+
+        .p-lewis {
+            font-size: 15px;
+            font-size: 13px;
+            line-height: 0px;
+            margin-left: 10px;
+        }
+
+        .the-end {
+            text-align: center;
+            font-size: 20px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1 style="text-align:center;">Turn your ideas into a future.</h1>
+        <P style="text-align:center">Front's feature-rich designed demo pages help you create the best possible product.
+
+        </P>
+        <i style="font-size:24px" class="fa">&#xf054;</i>
+
+        <button class="custom-button">Get Started</button>
+        <h2 style="text-align:center;">Learn to develop sites with components and design systems</h1>
+            <div class="span checkcontainer">
+                <i class="fa-solid fa-check" id="check"></i>
+                <span>Asynchronous Collaboration</span>&nbsp;&nbsp;
+                <i class="fa-solid fa-check" id="check"></i>
+                <span>Updates and announcements</span>&nbsp;&nbsp;
+                <i class="fa-solid fa-check" id="check"></i>
+                <span>Training and team building</span>
+            </div>
+            <div class="cards">
+                <div class="card-1">
+                    <!--img&text-->
+                    <img src="src.jpg" height="40%" width="100%" alt="img1" class="image-1">
+                    <h4>Front App</h4>
+                    <p class="paragraph">Front app is an easier way to search <br>
+                        on Android</p>
+                    <!--graterThan sybol-->
+                    <div class="i1-p1">
+                        <i class="fa-solid fa-greater-than" id="arrow"></i>&nbsp;&nbsp;
+                        <p class="para2">Advanced Analytics</p>
+                    </div>
+                    <div class="i2-p2">
+                        <i class="fa-solid fa-greater-than" id="arrow"></i>&nbsp;&nbsp;
+                        <p class="para2">Digital Marketing</p>
+                    </div>
+                    <div class="i3-p3">
+                        <i class="fa-solid fa-greater-than" id="arrow"></i>&nbsp;&nbsp;
+                        <p class="para2">Organization </p>
+                    </div>
+                    <div class="hr"></div>
+                    <div class="anchor">
+                        <a href="#" title="Learn more Information">Learn More</a>
+                        <!--&nbsp;&nbsp;<i class="fa-solid fa-greater-than" id="arrow" style="color blue"></i>-->
+
+                    </div>
+
+
+                </div>
+                <div class="card-2">
+                    <!--img&text-->
+                    <img src="src.jpg" height="40%" width="100%" alt="card-2" class="image-1">
+                    <h4>Front Chat</h4>
+                    <P class="paragraph">Front app is an easier way to search on Android</P>
+                    <!--greaterThan sybol-->
+                    <div class="i1-p1">
+                        <i class="fa-solid fa-greater-than" id="arrow"></i>&nbsp;&nbsp;
+                        <p class="para2">Cost Transformation</p>
+                    </div>
+                    <div class="i2-p2">
+                        <i class="fa-solid fa-greater-than" id="arrow"></i>&nbsp;&nbsp;
+                        <p class="para2">customer Experience</p>
+                    </div>
+                    <div class="i3-p3">
+                        <i class="fa-solid fa-greater-than" id="arrow"></i>&nbsp;&nbsp;
+                        <p class="para2">Mergers And Acquistions</p>
+                    </div>
+                    <div class="hr"></div>
+                    <div class="anchor">
+                        <a href="#" title="Learn More Inforamtion">Learn More</a>
+                        <!--&nbsp;&nbsp;<i class="fa-solid fa-greater-than" id="arrow" style="color blue"></i>-->
+
+                    </div>
+                </div>
+                <div class="card-3">
+                    <!--image&text-->
+                    <img src="src.jpg" height="40%" width="100%" alt="card-3" class="image-1">
+                    <h4>Front calender</h4>
+                    <P class="paragraph">Discover an easier way to manage contacts, sales and grow lasting relationships 
+                        on Android</P>
+                        <!--graterThan sybol-->
+                        <div class="i1-p2">
+                        <i class="fa-solid fa-greater-than" id="arrow"></i>&nbsp;&nbsp;
+                        <p class="para2">Enterprise Technology</p>
+                    </div>
+                    <div class="i2-p2">
+                        <i class="fa-solid fa-greater-than" id="arrow"></i>&nbsp;&nbsp;
+                        <p class="para2">Private Equity</p>
+                    </div>
+                    <div class="i3-p3">
+                        <i class="fa-solid fa-greater-than" id="arrow"></i>&nbsp;&nbsp;
+                        <p class="para2">Sustainability</p>
+                        <div class="hr"></div>
+                        <div class="anchor">
+                            <a href="#" title="Learn More Information...">Learn More</a>
+                                                    <!--&nbsp;&nbsp;<i class="fa-solid fa-greater-than" id="arrow" style="color blue"></i>-->
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    <!--part2-->
+    <div class="bg-container">
+        <div class="container1">
+            <h2 class="h2-container">Wow your audience</h2>
+            <p class="p-container1">The powerful and flexible theme for all kinds of business</p>
+            <div class="check-span">
+                <i class="fa-solid fa-check" id="check"></i>
+                <span>Responsive</span>
+                <i class="fa-solid fa-check" id="check"></i>
+                <span>5-Star support</span>
+                <i class="fa-solid fa-check" id="check"></i>
+                <span>Constant updates</span>
+            </div>
+            <div class="container2">
+                <div class="div-1">
+                    <img src="https://htmlstream.com/preview/front-v4.3.1/assests/img/1618x1010/img6.jpg"
+                        alt="office-image" class="office-img">
+
+                </div>
+                <div class="div-2">
+                    <h2 class="div2-h2">Collaboratative tools to design user experince tools to design user experience
+                    </h2>
+                    <p class="div2-p">We help bussinesses bring ideas tolife in the digital world, by designing and
+                        implementing the technology tools that they need to win.</p>
+                    <div class="check01">
+                        <i class="fa-solid fa-check" id="check"></i>
+                        <span>Less routine-more creativity</span>
+                    </div>
+                    <div class="check02">
+                        <i class="fa-solid fa-check" id="check"></i>
+                        <span>Hundreds of thousands saved</span>
+                    </div>
+                    <div class="div-check03">
+                        <i class="fa-solid fa-check" id="check"></i>
+                        <span class="btn-span">
+                            <button class="btn">Get Started</button>
+                        </span>
+                        <div class="hr2"></div>
+                        <p class="trust-p">Trusted by leading companies:</p>
+                        <!--company image4-->
+
+
+                        <span class="img1">
+                            <img src="https://htmlstream.com/preview/front-v4.3.1/assests/svg/brands/fibit-dark.svg"
+                                alt="image-1" class="img1">
+
+
+                        </span>
+                        <span class="img1">
+                            <img src="https://htmlstream.com/preview/front-v4.3.1/assests/svg/brands/forbes-dark.svg"
+                                alt="image-2" class="img2">
+
+                        </span>
+                        <span class="spanimg1">
+                            <img src="https://htmlstream.com/preview/front-v4.3.1/assests/svg/brands/mailchimp-dark.svg"
+                                alt="img3">
+
+                        </span>
+                        <span class="span-img1">
+                            <img src="https://htmlstream.com/preview/front-v4.3.1/assests/svg/brands/layar-dark.svg"
+                                alt="img4">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--part-3 container-3-->
+
+    <div class="container-3">
+        <div class="boy-image">
+            <img src="https://htmlstream.com/preview/front-v4.3.1/assests/img/400x500/img31.jpg" alt="boy image"
+                class="boy-image">
+        </div>
+        <div class="boy-text">
+            <img src="https://htmlstream.com/preview/front-v4.3.1/assets/svg/brands/mailchimp-primary.svg"
+                alt="boy name image" class="text-image">
+
+        </div>
+        <p class="text-h2">"I'm absolutely floored by the level of care and attention to detail the team at Htmlstream
+            have put into this theme and for one can guarante that I will be a return cusomer."</p>
+        <h2 class="h2-lewis">Lewis</h2>
+        <P classs="p-lewis">Senior Director of operations at mailchimp</P>
+    </div>
+    <h2 title="THE-END" class="the-end">The End</h2>
+</body>
+
+</html>

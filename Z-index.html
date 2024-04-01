@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    selector {
+        z-index: value;
+      }
+    </style>
+      
+</head>
+<body>
+    <div style="position: relative; z-index: 1;">
+        <div style="position: absolute; top: 20px; left: 20px; z-index: 2;">Element 1</div>
+        <div style="position: absolute; top: 50px; left: 50px; z-index: 3;">Element 2</div>
+        <div style="position: absolute; top: 80px; left: 80px; z-index: -1;">Element 3</div>
+      </div>
+      
+</body>
+</html>

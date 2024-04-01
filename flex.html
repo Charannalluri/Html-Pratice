@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .box {
+           
+            height: 10ovh;
+            border: 1px solid gray;
+            background-color: orangered;
+            text-align: center;
+            line-height: 100px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            
+
+        }
+        .flex-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            border: 1px solid;
+            
+            
+
+            
+        }
+        button:active{
+            background-color: blue;
+        }
+        input:focus{
+            outline: none;
+            border: 5px solid blue;
+        }
+        .elements::After{
+            content: "thumb symbol";
+            font-size:30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-box">
+        
+            <div class="box">ABCDEFGHIJK</div>
+            <button>Sign in</button>
+            <input type="text" placeholder="enter name">
+            <div class="elements">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptate tempore repellat deserunt earum. Culpa possimus sit dolor animi ducimus quia? Quisquam officia voluptatum soluta ducimus vitae. Dolor, omnis quo?
+            </div>
+            
+    </div>
+</body>
+
+</html>
